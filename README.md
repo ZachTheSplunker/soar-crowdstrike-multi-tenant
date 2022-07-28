@@ -9,7 +9,7 @@ Playbooks and custom functions to integrate with multiple tenants in Crowdstrike
 1. Sit back and enjoy the automation.
 
 
-## Configure List
+### Configure List
 
 This process utilizes a custom list to map tenant CIDs to their name. The asset name will need to **exactly match** the name in the list. Spaces are allowed.
 
@@ -22,7 +22,7 @@ i.e.
 ```
 
 
-## Configure Assets
+### Configure Assets
 
 Only the parent tenant needs to be configured to poll data from Crowdstrike. The other tenants can just be configured with API credentials. The important thing is to **exactly match** the asset name to the custom list name.
 
