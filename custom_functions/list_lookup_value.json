@@ -1,0 +1,31 @@
+{
+    "create_time": "2022-07-22T17:51:07.895605+00:00",
+    "custom_function_id": "457fdf14dc11d4ad2c185ad3f98a9eed7ee584f3",
+    "description": "Looks up the first column in a custom list and returns the value in the second column on a matching row.",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "Custom List",
+            "input_type": "item",
+            "name": "custom_list",
+            "placeholder": "Custom List"
+        },
+        {
+            "contains_type": [],
+            "description": "Column 1 value to lookup",
+            "input_type": "item",
+            "name": "column_1",
+            "placeholder": "column_1_value"
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "column_2",
+            "description": "Returned lookup value."
+        }
+    ],
+    "platform_version": "5.3.2.88192",
+    "python_version": "3"
+}
