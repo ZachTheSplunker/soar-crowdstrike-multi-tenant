@@ -2,14 +2,22 @@
 
 Playbooks and custom functions to integrate with multiple tenants in Crowdstrike.
 
+**Requires Splunk SOAR >= 5.3.3**
+
 ## Overview
 
-1. Add tenant CIDs and names to custom list
+1. Create and Add tenant CIDs and names to custom list
 1. Configure assets to match names associated with CIDs
 1. Sit back and enjoy the automation.
 
 
 ### Configure List
+
+**Name of list to create:** `Crowdstrike Tenant ID mappings`
+
+**Important**
+
+If you create a list under a different name, the `Child - Crowdstrike Tenant ID Lookup` playbook will also needed to be updated for the list_lookup_value action. 
 
 This process utilizes a custom list to map tenant CIDs to their name. The asset name will need to **exactly match** the name in the list. Spaces are allowed.
 
